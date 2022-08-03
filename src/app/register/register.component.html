@@ -1,34 +1,42 @@
 <form>
     <style>
-    label{
-        text-align:center;
-        display: inline-block;
-        width: 200px;
-        margin-bottom: 30px;
-        margin-left: -50px;
-    }
-    button{
-        text-align:center;
-        margin-left: 60px;
-        margin-right: 10px;
-    }
-    div{
-        text-align: center;
-    }
-    </style>
-    <div>
-        <h1>Register Account</h1>
-<label for="name">Name</label>
-<input type="text"placeholder= "Enter your Name" name="name" id="name">
-<br>
-<label for="email">Email</label>
-<input type="text"placeholder= "Enter your email" email="email" id="email">
-<br>
-<label for="email">password</label>
-<input type="text"placeholder= "Enter your password" email="password" id="password">
-<br>
+        label{
+            text-align:left;
+            display: inline-block;
+            width:150px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+        button{
+            text-align: center;
+            display: inline-block;
+            width: 100px;
+            margin-right: 10px;
+            margin-left: 20px;
 
-<button>Submit</button>
-<button>Reset</button>
-</div>
+        }
+        
+        div{
+            text-align: center;
+        }
+    </style>
+  <div>
+    <h2>Register Account</h2>
+    <label for="name"><b>Name</b>  </label>
+    <input type="text" placeholder="Enter Your Name" name="name" id="name">
+    <br>
+    <label for="Email"><b>Email </b> </label>
+    <input type="text" placeholder="Enter Your Email" name="name" id="Email">
+    <br>
+    <label for="password"><b>Password</b>  </label>
+    <input type="text" placeholder="Enter Your Password" name="name" id="password">
+    <br>
+    <label>
+    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+</label>
+<br>
+    <button>Submit</button>
+    <button>Reset</button>
+    </div>
+  
 </form>
